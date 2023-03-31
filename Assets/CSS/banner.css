@@ -1,0 +1,43 @@
+.banner{
+    background-image: url(/Assets/Imagens/banner-image.png);
+    background-size: cover;
+    background-position: 40%;
+    height: 300px;
+    position: relative;
+}
+
+.banner__textos {    
+    color: var(--branco);
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+
+}
+
+.banner__titulo {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.banner__chamada {
+    font-size: 1em;
+    margin-bottom: 0.8em;
+}
+
+.banner__btn{
+    align-items: center;
+    background-color: var(--azul);
+    border: none;
+    color: var(--branco);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 40px;
+    justify-content: center;
+    padding: 12px 16px;
+    width: 119px;
+    margin-bottom: 10px;
+
+}

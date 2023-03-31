@@ -1,0 +1,45 @@
+.cabecalho {
+    background: var(--branco);
+    padding: 1rem;
+}
+
+.cabecalho__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cabecalho__logo{
+    max-width: 7rem;
+}
+
+.cabecalho__login {
+    background-color: var(--branco);
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    width: 10rem;
+    height: 2rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.cabecalho__input{
+    display: none;
+}
+
+.cabecalho__btn{
+    background: none;
+    border: none;
+}
+
+.cabecalho__btn:hover{
+    background-color: var(--cinza);
+    border-radius: 50%;
+    padding: 0.8em;
+}
+
+
