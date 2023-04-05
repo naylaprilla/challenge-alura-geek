@@ -1,12 +1,12 @@
 {
     "produto": [
         {
-        "name" : "One",
-        "imageUrl" : "http://encrypted-tbn0.gstatic.com/images?",
+        "name": "One",
+        "imageUrl": "/assets/imagens/produtos/Star Wars/star-wars.png",
         "price": "100.00",
         "id": 1,
         "alt": "Product",
-        "category": "Star Wars",
+        "section": "Star Wars",
         "description": "Voluptas valuptatum quibusdam similique, class desbt"
         }
     ]
