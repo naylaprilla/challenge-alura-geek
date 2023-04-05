@@ -42,4 +42,41 @@
     padding: 0.8em;
 }
 
+.cabecalho__adm{
+    background-color: var(--branco);
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    width: 10rem;
+    height: 2rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+}
 
+@media (min-width: 375px) {
+
+    .cabecalho__input{
+        display: inline;
+        background-color: var(--cinza);
+        border: none;
+        border-radius: 20px;
+        width: 200px;
+        padding: 10px;
+        margin-right: 15px;
+
+    }
+
+    .input-icon {
+        background: var(--cinza) url(/assets/imagens/lupa.png) no-repeat;
+        background-position: 95% center;
+        background-size: 20px 20px
+    }
+
+    .cabecalho__btn{
+        display: none;
+    }
+
+
+}
