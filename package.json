@@ -1,0 +1,12 @@
+{
+    "name": "alurageek",
+    "version": "1.0.0",
+    "description": "site desenvolvido para e-comerce de produtos destinados a um público geek com foco de estudo em crud",
+    "main": "index.js",
+    "scripts": {
+        "server": "json-server --watch db.json"
+    },
+    "keywords": [],
+    "author": "Nayla Prilla",
+    "license": "ISC"
+}

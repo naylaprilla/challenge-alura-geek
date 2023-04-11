@@ -1,13 +1,22 @@
 {
     "produto": [
         {
-        "name": "One",
-        "imageUrl": "/assets/imagens/produtos/Star Wars/star-wars.png",
+        "name": "Caneca Stormtrooper",
+        "imageUrl": "https://github.com/naylaprilla/challenge-alura-geek/blob/main/Assets/imagens/produtos/Star%20Wars/star-wars.png",
         "price": "100.00",
         "id": 1,
         "alt": "Product",
         "section": "Star Wars",
-        "description": "Voluptas valuptatum quibusdam similique, class desbt"
+        "description": "Caneca Stormtrooper fabricada em cerâmica, pode ser usada no microondas. Venha beber o seu café do lado negro da força."
+        },
+        {
+        "name": "Lego StarWars",
+        "imageUrl": "https://github.com/naylaprilla/challenge-alura-geek/blob/main/Assets/imagens/produtos/Star%20Wars/star-wars-lego.png",
+        "price": "150.00",
+        "id": 2,
+        "alt": "Product",
+        "section": "Star Wars",
+        "description": "Perfeito para você que gosta de Lego e Star Wars, o melhor dos dois mundos."   
         }
     ]
 }
