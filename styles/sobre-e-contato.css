@@ -44,6 +44,7 @@
     height: 35px;
     margin: 5px 15px 5px 5px; 
     padding-bottom: 15px;
+    border-bottom: 1px solid var(--cor-sombra)
 }
 
 .mensagem{
@@ -64,4 +65,10 @@
     padding: 12px 16px;
     width: 151px;
     margin:  10px;
+    transition: 0.5s;
+}
+
+.contato__btn:hover {
+    background: var(--azul-hover);
+    transform: scale(1.1);
 }

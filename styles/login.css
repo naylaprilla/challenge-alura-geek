@@ -1,0 +1,59 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: var(--cor-background);
+
+}
+
+.login__titulo {
+    display: flex;
+    font-size: 1.5em;
+    font-weight: 700;
+    justify-content: center;
+    margin: 5em auto 1em;
+}
+
+.login__formulario{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+
+}
+
+.login__formulario--elementos{
+    align-items: center;
+    background-color: var(--branco);
+    border: none;
+    color: var(--cor-placeholder);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 8px 12px 13px 12px;
+    width: 60%;
+    border-bottom: 1px solid var(--cor-sombra);
+    
+}
+
+.login__formulario--btn{
+    align-items: center;
+    background-color: var(--azul);
+    border: none;
+    color: var(--branco);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 40px;
+    justify-content: center;
+    padding: 12px 16px;
+    width: 151px;
+    margin-bottom:  20%;
+    transition: 0.5s;
+}
+
+.login__formulario--btn:hover{
+    background: var(--azul-hover);
+    transform: scale(1.1);
+}

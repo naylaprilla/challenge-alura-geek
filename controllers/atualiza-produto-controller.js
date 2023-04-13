@@ -12,6 +12,19 @@ const inputDescricao = document.querySelector('[data-descricao]')
 
 produtoService.listarProduto(id).then((dados) => {
     inputImageUrl.setAttribute('src', dados.imageUrl)
-    input.value = dados.name
-    input.value = dados.price
+    inputNome.value = dados.name
+    inputPreco.value = dados.price
+    inputDescription.value = dados.description
+})
+
+const formulario = document.querySelector('[data-form]')
+
+formulario.addEventListener('submit', (evento) => {
+    evento.preventDefault()
+
+    produtoService
+    .alteraProduto(id, inputNome.value, inputPreco.value, inputDescricao.value)
+    .then(() => {
+        window.location.href = '../views/produto.html'
+    })
 })

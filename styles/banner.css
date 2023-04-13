@@ -39,5 +39,11 @@
     padding: 12px 16px;
     width: 119px;
     margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.banner__btn:hover {
+    background: var(--azul-hover);
+    transform: scale(1.1);
 }
 

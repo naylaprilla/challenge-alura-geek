@@ -23,6 +23,7 @@
     border:none;
     width: 98%;
     height: 3.5rem;
+    border-bottom: 1px solid var(--cor-sombra);
     
 }
 
@@ -40,5 +41,31 @@
     width: 98%;
     margin:0 0.938rem 0.938rem 0;
 }
+
+@media (min-width: 1440px) {    
+    .produtos__add {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    .produtos__add--titulo{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .input__style {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+}
+
 
 

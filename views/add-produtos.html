@@ -8,46 +8,74 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
-    <link rel="stylesheet" href="/assets/css/reset.css">
-    <link rel="stylesheet" href="/assets/css/base.css">
-    <link rel="stylesheet" href="/assets/css/cabecalho.css">
-    <link rel="stylesheet" href="/assets/css/add-produtos.css">
-    <link rel="stylesheet" href="/assets/css/sobre-e-contato.css">
-    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/cabecalho.css">
+    <link rel="stylesheet" href="/styles/add-produtos.css">
+    <link rel="stylesheet" href="/styles/sobre-e-contato.css">
+    <link rel="stylesheet" href="/styles/login.css">
+    <link rel="stylesheet" href="/styles/footer.css">
 
     <title>Adicionar Novo Produto</title>
 </head>
 <body>
 
     <div class="container">
-        <header class="cabecalho">
-            <section class="cabecalho__content">
-                <img class="cabecalho__logo" src="/assets/imagens/logo.png" alt="Logo AluraGeek">
-        
-                <button class="cabecalho__adm">Menu Administrador</button>
-        
-                <div class="cabecalho__pesquisa">
-                    <input class="cabecalho__input input-icon" type="text" placeholder="O que deseja encontrar?">
-                    <button class="cabecalho__btn"><i class="bi bi-search"></i></button>
-                </div>
-            </section>
-        </header>
 
+        <header>
+            <nav class="cabecalho">
+                <section class="cabecalho__content">
+                    <img class="cabecalho__logo" src="/assets/imagens/logo.png" alt="Logo AluraGeek">
+            
+                    <button class="cabecalho__adm">Menu Administrador</button>
+            
+                    <div class="cabecalho__pesquisa">
+                        <input class="cabecalho__input input-icon" type="text" placeholder="O que deseja encontrar?">
+                        <button class="cabecalho__btn"><i class="bi bi-search"></i></button>
+                    </div>
+                </section>
+            </nav>
+        </header>
 
         <main>
             <section class="produtos__add">
+                <div class="produtos__conteudo">
                 <h2 class="produtos__add--titulo">Adicionar novo produto</h2>
                 <form class="produtos__cadastro" data-form>
-                    <input class="produtos__add--URL input__style" type="text" placeholder="URL do produto" required data-url>
+                    <input 
+                    class="produtos__add--URL input__style" 
+                    type="text" 
+                    placeholder="URL do produto" 
+                    required 
+                    data-url>
 
-                    <input class="produtos__add--categoria input__style" type="text" placeholder="Categoria" required data-categoria>
+                    <input 
+                    class="produtos__add--categoria input__style" 
+                    type="text" placeholder="Categoria" 
+                    required 
+                    data-categoria>
 
-                    <input class="produtos__add--nome input__style" type="text" placeholder="Nome do produto" required data-nome>
+                    <input 
+                    class="produtos__add--nome input__style" 
+                    type="text" 
+                    placeholder="Nome do produto" 
+                    required 
+                    data-nome>
 
-                    <input class="produtos__add--preco input__style" type="text" placeholder="Preço do Produto" required data-preco>
+                    <input 
+                    class="produtos__add--preco input__style" 
+                    type="text" 
+                    placeholder="Preço do Produto" 
+                    required 
+                    data-preco>
 
-                    <input class="produtos__add--descricao input__style" type="text" placeholder="Descrição" required data-descricao>
-
+                    <input 
+                    class="produtos__add--descricao input__style" 
+                    type="text" 
+                    placeholder="Descrição" 
+                    required 
+                    data-descricao>
+                    </div>
                     <div>
                         <button class="produtos__btn">Adicionar produto</button>
                     </div>
@@ -71,8 +99,8 @@
                     <h2 class="contato__formulario--titulo">Fale conosco</h2>
                     <form class="contato__formulario" action="GET">
                         <div class="contato__inputs">
-                            <input class="contato__formulario--item" type="text" placeholder="Nome">
-                            <input  class="contato__formulario--item mensagem" placeholder="Escreva sua mensagem"></input>
+                            <input class="contato__formulario--item" type="text" placeholder="Nome" required>
+                            <input  class="contato__formulario--item mensagem" placeholder="Escreva sua mensagem" required></input>
                             <button class="contato__btn">Enviar mensagem</button>
                         </div>
                     </form>
@@ -81,9 +109,11 @@
         </main>
 
         <footer class="rodapé">
-            <h2>Desenvolvido por Nayla Prilla</h2>
+            <h2> &copy; Desenvolvido por Nayla Prilla</h2>
             <p>2023</p>
         </footer>
+
+        <script type="module" src="../js/services/produto-service.js"></script>
     
 </body>
 </html>

@@ -9,29 +9,32 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
 
-    <link rel="stylesheet" href="/assets/css/reset.css">
-    <link rel="stylesheet" href="/assets/css/base.css">
-    <link rel="stylesheet" href="/assets/css/cabecalho.css">
-    <link rel="stylesheet" href="/assets/css/banner.css">
-    <link rel="stylesheet" href="/assets/css/sobre-e-contato.css">
-    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/cabecalho.css">
+    <link rel="stylesheet" href="/styles/add-produtos.css">
+    <link rel="stylesheet" href="/styles/sobre-e-contato.css">
+    <link rel="stylesheet" href="/styles/login.css">
+    <link rel="stylesheet" href="/styles/footer.css">
     <title>AluraGeek</title>
 </head>
 <body>
 
     <div class="container">
 
-        <header class="cabecalho">
-            <section class="cabecalho__content">
-                <img class="cabecalho__logo" src="/assets/imagens/logo.png" alt="Logo AluraGeek">
-        
-                <button class="cabecalho__login">Login</button>
-        
-                <div class="cabecalho__pesquisa">
-                    <input class="cabecalho__input input-icon" type="text" placeholder="O que deseja encontrar?">
-                    <button class="cabecalho__btn"><i class="bi bi-search"></i></button>
-                </div>
-            </section>
+        <header>
+            <nav class="cabecalho">
+                <section class="cabecalho__content">
+                    <img class="cabecalho__logo" src="/assets/imagens/logo.png" alt="Logo AluraGeek">
+            
+                    <button class="cabecalho__adm">Menu Administrador</button>
+            
+                    <div class="cabecalho__pesquisa">
+                        <input class="cabecalho__input input-icon" type="text" placeholder="O que deseja encontrar?">
+                        <button class="cabecalho__btn"><i class="bi bi-search"></i></button>
+                    </div>
+                </section>
+            </nav>
         </header>
     
         <main>
@@ -47,19 +50,40 @@
              
                 
             </section>
+
+            <section class="conteudo__sobre--e--contato">
+                <section class="sobre">
+                    <img class="sobre__logo" src="/assets/imagens/logo.png" alt="logo AluraGeek">
+                    <ul class="sobre__links">
+                        <li class="sobre__links--lista"><a href="">Quem somos nós</a></li>
+                        <li class="sobre__links--lista"><a href="">Política de privacidade</a></li>
+                        <li class="sobre__links--lista"><a href="">Programa de fidelidade</a></li>
+                        <li class="sobre__links--lista"><a href="">Nossas lojas</a></li>
+                        <li class="sobre__links--lista"><a href="">Quero ser franqueado</a></li>
+                        <li class="sobre__links--lista"><a href="">Anuncie aqui</a></li>
+                    </ul>
+                </section>
+
+                <section class="contato">
+                    <h2 class="contato__formulario--titulo">Fale conosco</h2>
+                    
+                    <form class="contato__formulario">
+                        <div class="contato__inputs">
+                            <input class="contato__formulario--item" type="text" placeholder="Nome" required>
+                            <input  class="contato__formulario--item mensagem" type="text" placeholder="Escreva sua mensagem" required></input>
+                            <button class="contato__btn" type="submit">Enviar mensagem</button>
+                        </div>
+                    </form>
+                </section>                             
+            </section>
         </main>
     
         <footer class="rodapé">
-            <h2>Desenvolvido por Nayla Prilla</h2>
+            <h2> &copy; Desenvolvido por Nayla Prilla</h2>
             <p>2023</p>
         </footer>
         
     </div>
-
-
-    
-
-
     
 </body>
 </html>
